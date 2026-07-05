@@ -1,6 +1,6 @@
-package una.invitacion_boda.data;
+package una.data;
 
-import una.invitacion_boda.logic.ItemItinerario;
+import una.logic.ItemItinerario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

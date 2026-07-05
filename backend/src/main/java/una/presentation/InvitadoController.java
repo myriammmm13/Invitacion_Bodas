@@ -1,8 +1,8 @@
-package una.invitacion_boda.presentation.api;
+package una.presentation;
 
-import una.invitacion_boda.dto.ConfirmacionRequestDTO;
-import una.invitacion_boda.dto.InvitadoResponseDTO;
-import una.invitacion_boda.service.InvitadoService;
+import una.dto.ConfirmacionRequestDTO;
+import una.dto.InvitadoResponseDTO;
+import una.service.InvitadoService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

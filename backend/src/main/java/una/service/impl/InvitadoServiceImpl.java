@@ -1,11 +1,11 @@
-package una.invitacion_boda.service.impl;
+package una.service.impl;
 
-import una.invitacion_boda.data.InvitadoRepository;
-import una.invitacion_boda.dto.ConfirmacionRequestDTO;
-import una.invitacion_boda.dto.InvitadoResponseDTO;
-import una.invitacion_boda.logic.EstadoConfirmacion;
-import una.invitacion_boda.logic.Invitado;
-import una.invitacion_boda.service.InvitadoService;
+import una.data.InvitadoRepository;
+import una.dto.ConfirmacionRequestDTO;
+import una.dto.InvitadoResponseDTO;
+import una.logic.EstadoConfirmacion;
+import una.logic.Invitado;
+import una.service.InvitadoService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 

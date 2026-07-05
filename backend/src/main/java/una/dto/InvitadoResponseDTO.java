@@ -1,6 +1,6 @@
-package una.invitacion_boda.dto;
+package una.dto;
 
-import una.invitacion_boda.logic.EstadoConfirmacion;
+import una.logic.EstadoConfirmacion;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

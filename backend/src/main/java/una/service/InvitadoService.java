@@ -1,7 +1,7 @@
-package una.invitacion_boda.service;
+package una.service;
 
-import una.invitacion_boda.dto.ConfirmacionRequestDTO;
-import una.invitacion_boda.dto.InvitadoResponseDTO;
+import una.dto.ConfirmacionRequestDTO;
+import una.dto.InvitadoResponseDTO;
 import java.util.List;
 
 public interface InvitadoService {

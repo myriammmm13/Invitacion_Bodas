@@ -1,4 +1,4 @@
-package com.boda.api.invitado;
+package una.logic;
 
 import jakarta.persistence.*;
 import lombok.Getter;

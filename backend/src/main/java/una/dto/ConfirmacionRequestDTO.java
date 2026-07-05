@@ -1,4 +1,4 @@
-package una.invitacion_boda.dto;
+package una.dto;
 
 import lombok.Getter;
 import lombok.Setter;

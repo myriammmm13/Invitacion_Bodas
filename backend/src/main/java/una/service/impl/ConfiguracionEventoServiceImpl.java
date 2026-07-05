@@ -1,8 +1,8 @@
-package una.invitacion_boda.service.impl;
+package una.service.impl;
 
-import una.invitacion_boda.data.ConfiguracionEventoRepository;
-import una.invitacion_boda.logic.ConfiguracionEvento;
-import una.invitacion_boda.service.ConfiguracionEventoService;
+import una.data.ConfiguracionEventoRepository;
+import una.logic.ConfiguracionEvento;
+import una.service.ConfiguracionEventoService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 

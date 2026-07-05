@@ -1,8 +1,8 @@
-package una.invitacion_boda.service.impl;
+package una.service.impl;
 
-import una.invitacion_boda.data.ItinerarioRepository;
-import una.invitacion_boda.logic.ItemItinerario;
-import una.invitacion_boda.service.ItinerarioService;
+import una.data.ItinerarioRepository;
+import una.logic.ItemItinerario;
+import una.service.ItinerarioService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

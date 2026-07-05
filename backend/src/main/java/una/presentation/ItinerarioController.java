@@ -1,7 +1,7 @@
-package una.invitacion_boda.presentation.api;
+package una.presentation;
 
-import una.invitacion_boda.logic.ItemItinerario;
-import una.invitacion_boda.service.ItinerarioService;
+import una.logic.ItemItinerario;
+import una.service.ItinerarioService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

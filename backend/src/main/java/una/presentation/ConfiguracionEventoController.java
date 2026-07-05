@@ -1,7 +1,7 @@
-package una.invitacion_boda.presentation.api;
+package una.presentation;
 
-import una.invitacion_boda.logic.ConfiguracionEvento;
-import una.invitacion_boda.service.ConfiguracionEventoService;
+import una.logic.ConfiguracionEvento;
+import una.service.ConfiguracionEventoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
