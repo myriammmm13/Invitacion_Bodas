@@ -1,4 +1,8 @@
-package una.service;
+package una.invitacion_boda.service;
 
-public class ConfiguracionEventoService {
+import una.invitacion_boda.logic.ItemItinerario;
+import java.util.List;
+
+public interface ItinerarioService {
+    List<ItemItinerario> listarOrdenado();
 }
