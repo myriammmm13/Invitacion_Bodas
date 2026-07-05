@@ -62,19 +62,6 @@ El sistema sigue un enfoque desacoplado y ligero, optimizado para despliegues r�
 
 ---
 
-## 🌐 Endpoints Principales (API REST)
-
-| Método | Endpoint | Descripción |
-| :--- | :--- | :--- |
-| **GET** | `/api/invitados/buscar?nombre=...` | Búsqueda por coincidencia parcial (Case Insensitive) |
-| **PUT** | `/api/invitados/{id}/confirmar` | Actualiza estado de asistencia y guarda mensaje |
-| **GET** | `/api/evento` | Recupera configuración general (Dress code, ubicaciones, etc.) |
-| **GET** | `/api/itinerario` | Devuelve la lista ordenada de actividades |
-| **GET** | `/api/admin/invitados` | *(Protegido)* Lista completa con estados de confirmación |
-| **GET** | `/api/admin/mensajes` | *(Protegido)* Todos los mensajes recibidos |
-
----
-
 ## 📦 Desarrollo Local con Docker
 
 Para levantar todo el entorno local (Base de datos MySQL + Servidor Spring Boot), asegúrate de tener instalado Docker y ejecuta:
