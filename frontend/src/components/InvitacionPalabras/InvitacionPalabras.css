@@ -1,0 +1,21 @@
+.palabras-script {
+    font-family: var(--fuente-script);
+    font-size: 2.4rem;
+    color: var(--color-dorado);
+    margin: 0 0 30px;
+}
+
+.palabras-texto {
+    font-family: var(--fuente-serif);
+    font-style: italic;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    max-width: 320px;
+}
+
+.palabras-autor {
+    font-family: var(--fuente-serif);
+    font-size: 0.85rem;
+    color: var(--color-salvia);
+    margin-top: 14px;
+}

@@ -1,0 +1,64 @@
+:root {
+    --color-verde-bosque: #2F3B2C;
+    --color-crema: #FBF6EC;
+    --color-vino: #7A2E2E;
+    --color-dorado: #B8963E;
+    --color-salvia: #8FA888;
+    --color-texto-oscuro: #2F3B2C;
+    --color-texto-claro: #FBF6EC;
+
+    --fuente-serif: 'Cormorant Garamond', serif;
+    --fuente-script: 'Mrs Saint Delafield', cursive;
+}
+
+.tarjeta-seccion {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 28px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tarjeta-seccion--clara {
+    background: var(--color-crema);
+    color: var(--color-texto-oscuro);
+}
+
+.tarjeta-seccion--oscura {
+    background: var(--color-verde-bosque);
+    color: var(--color-texto-claro);
+}
+
+.tarjeta-eyebrow {
+    font-family: var(--fuente-serif);
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--color-dorado);
+    margin-bottom: 12px;
+}
+
+.tarjeta-titulo {
+    font-family: var(--fuente-serif);
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 24px;
+}
+
+.ornamento-hoja {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+.ornamento-hoja--sup-izq { top: 0; left: 0; }
+.ornamento-hoja--inf-der { bottom: 0; right: 0; transform: rotate(180deg); }

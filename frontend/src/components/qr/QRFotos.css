@@ -1,0 +1,13 @@
+.qr-texto {
+    font-family: var(--fuente-serif);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 280px;
+    margin: 16px 0 24px;
+}
+
+.qr-caja {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}

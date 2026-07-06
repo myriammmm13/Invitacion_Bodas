@@ -1,0 +1,26 @@
+.recepcion-texto {
+    font-family: var(--fuente-serif);
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 16px 0;
+}
+
+.recepcion-hora {
+    font-family: var(--fuente-serif);
+    font-size: 1.3rem;
+    color: var(--color-dorado);
+    margin-bottom: 20px;
+}
+
+.boton-outline {
+    display: inline-block;
+    font-family: var(--fuente-serif);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--color-texto-claro);
+    border: 1px solid var(--color-dorado);
+    padding: 12px 26px;
+    border-radius: 30px;
+}

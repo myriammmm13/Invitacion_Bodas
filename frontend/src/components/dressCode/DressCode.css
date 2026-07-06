@@ -1,0 +1,19 @@
+.dresscode-bloque {
+    margin: 20px 0;
+    max-width: 300px;
+}
+
+.dresscode-genero {
+    font-family: var(--fuente-serif);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-vino);
+    margin-bottom: 8px;
+}
+
+.dresscode-texto {
+    font-family: var(--fuente-serif);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}

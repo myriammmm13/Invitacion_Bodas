@@ -1,0 +1,24 @@
+.regalos-texto {
+    font-family: var(--fuente-serif);
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 16px 0 24px;
+}
+
+.regalos-caja {
+    background: rgba(251, 246, 236, 0.08);
+    border: 1px solid var(--color-dorado);
+    border-radius: 6px;
+    padding: 20px;
+    font-family: var(--fuente-serif);
+    font-size: 0.95rem;
+    line-height: 2;
+}
+
+.regalos-gracias {
+    font-family: var(--fuente-script);
+    font-size: 1.8rem;
+    color: var(--color-dorado);
+    margin-top: 24px;
+}

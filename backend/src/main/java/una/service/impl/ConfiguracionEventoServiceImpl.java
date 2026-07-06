@@ -17,7 +17,7 @@ public class ConfiguracionEventoServiceImpl implements ConfiguracionEventoServic
 
     @Override
     public ConfiguracionEvento obtener() {
-        return repository.findById(1)
+        return repository.findById((byte) 1)
                 .orElseThrow(() -> new EntityNotFoundException("Configuración del evento no encontrada"));
     }
 }

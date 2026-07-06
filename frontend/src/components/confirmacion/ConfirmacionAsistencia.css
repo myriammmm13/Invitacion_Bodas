@@ -1,0 +1,83 @@
+.rsvp-input, .rsvp-textarea {
+    width: 100%;
+    max-width: 280px;
+    font-family: var(--fuente-serif);
+    font-size: 1rem;
+    padding: 12px;
+    border: 1px solid var(--color-salvia);
+    border-radius: 4px;
+    background: #fff;
+    margin: 14px 0;
+    box-sizing: border-box;
+}
+
+.rsvp-textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.rsvp-error {
+    font-family: var(--fuente-serif);
+    color: var(--color-vino);
+    font-size: 0.9rem;
+    margin-top: 12px;
+}
+
+.rsvp-resultado {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    font-family: var(--fuente-serif);
+    font-size: 1rem;
+    background: #fff;
+    border: 1px solid var(--color-salvia);
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.rsvp-formulario {
+    width: 100%;
+    max-width: 300px;
+}
+
+.rsvp-nombre-seleccionado {
+    font-family: var(--fuente-serif);
+    font-size: 1.2rem;
+    color: var(--color-vino);
+    margin-bottom: 20px;
+}
+
+.rsvp-pregunta {
+    font-family: var(--fuente-serif);
+    font-size: 1rem;
+    margin: 18px 0 10px;
+}
+
+.rsvp-botones-si-no {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.rsvp-opcion {
+    font-family: var(--fuente-serif);
+    font-size: 0.95rem;
+    padding: 10px 26px;
+    border: 1px solid var(--color-verde-bosque);
+    background: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.rsvp-opcion--activa {
+    background: var(--color-verde-bosque);
+    color: var(--color-texto-claro);
+}
+
+.rsvp-gracias {
+    font-family: var(--fuente-serif);
+    font-size: 1.2rem;
+    color: var(--color-vino);
+}

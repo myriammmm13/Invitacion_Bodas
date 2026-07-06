@@ -1,0 +1,47 @@
+.contador-cita {
+    font-family: var(--fuente-serif);
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.contador-autor {
+    font-family: var(--fuente-serif);
+    font-size: 0.85rem;
+    color: var(--color-dorado);
+    margin-top: 10px;
+}
+
+.contador-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.contador-caja {
+    background: var(--color-verde-bosque);
+    color: var(--color-texto-claro);
+    border-radius: 6px;
+    padding: 18px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contador-numero {
+    font-family: var(--fuente-serif);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.contador-etiqueta {
+    font-family: var(--fuente-serif);
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: var(--color-salvia);
+}

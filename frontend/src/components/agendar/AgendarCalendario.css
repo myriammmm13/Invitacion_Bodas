@@ -1,0 +1,12 @@
+.boton-dorado {
+    display: inline-block;
+    font-family: var(--fuente-serif);
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--color-texto-claro);
+    background: var(--color-dorado);
+    padding: 14px 28px;
+    border-radius: 4px;
+    margin-top: 10px;
+}

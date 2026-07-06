@@ -1,0 +1,31 @@
+.itinerario-lista {
+    width: 100%;
+    max-width: 280px;
+    text-align: left;
+}
+
+.itinerario-item {
+    border-left: 2px solid var(--color-dorado);
+    padding-left: 16px;
+    margin-bottom: 24px;
+}
+
+.itinerario-hora {
+    font-family: var(--fuente-serif);
+    font-size: 1.2rem;
+    color: var(--color-dorado);
+    margin: 0;
+}
+
+.itinerario-actividad {
+    font-family: var(--fuente-serif);
+    font-size: 1rem;
+    margin: 4px 0 0;
+}
+
+.itinerario-zona {
+    font-family: var(--fuente-serif);
+    font-size: 0.85rem;
+    color: var(--color-salvia);
+    margin: 2px 0 0;
+}
