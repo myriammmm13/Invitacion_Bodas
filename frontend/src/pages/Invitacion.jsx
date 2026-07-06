@@ -35,11 +35,11 @@ export default function Invitacion() {
     if (!evento) return <div className="error">No se pudo cargar la invitación.</div>;
 
     return (
-        <Portada cancionUrl={evento.cancionUrl} nombresNovios="Ana & Carlos">
+        <Portada cancionUrl={evento.cancionUrl} nombresNovios="Tiana & Carlitos">
             <InvitacionPalabras
                 texto={evento.textoInvitacion}
                 autor={evento.autorFrase}
-                nombresNovios="Ana & Carlos"
+                nombresNovios="Tiana & Carlitos"
             />
 
             <Contador fechaBoda={evento.fechaHoraBoda} />
@@ -47,7 +47,7 @@ export default function Invitacion() {
             <AgendarCalendario
                 fechaBoda={evento.fechaHoraBoda}
                 direccionRecepcion={evento.direccionRecepcion}
-                nombresNovios="Ana & Carlos"
+                nombresNovios="Tiana & Carlitos"
             />
 
             <Recepcion
